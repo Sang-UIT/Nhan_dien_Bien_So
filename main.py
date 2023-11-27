@@ -3,4 +3,4 @@ import livecam
 from streamlit_webrtc import webrtc_streamer
 
 
-webrtc_streamer=webrtc_streamer(key="testing", video_processor_factory=livecam.Detect)
+webrtc_streamer=webrtc_streamer(key="testing", video_transformer_factory=livecam.Detect)
